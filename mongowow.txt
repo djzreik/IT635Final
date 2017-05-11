@@ -1,0 +1,133 @@
+MongoDB\Driver\Cursor Object
+(
+    [cursor] => Array
+        (
+            [stamp] => 0
+            [is_command] => 
+            [sent] => 1
+            [done] => 
+            [end_of_event] => 
+            [in_exhaust] => 
+            [has_fields] => 
+            [query] => stdClass Object
+                (
+                    [find] => Race
+                    [filter] => stdClass Object
+                        (
+                        )
+
+                )
+
+            [fields] => stdClass Object
+                (
+                )
+
+            [read_preference] => Array
+                (
+                    [mode] => 1
+                    [tags] => Array
+                        (
+                        )
+
+                )
+
+            [flags] => 0
+            [skip] => 0
+            [limit] => 0
+            [count] => 1
+            [batch_size] => 0
+            [ns] => wowhz.Race
+            [current_doc] => stdClass Object
+                (
+                    [_id] => MongoDB\BSON\ObjectID Object
+                        (
+                            [oid] => 591127ad734d1d02624137c8
+                        )
+
+                    [race] => Nightelf
+                )
+
+        )
+
+    [server_id] => 1
+)
+object(stdClass)#8 (2) {
+  ["_id"]=>
+  object(MongoDB\BSON\ObjectID)#9 (1) {
+    ["oid"]=>
+    string(24) "591127ad734d1d02624137c8"
+  }
+  ["race"]=>
+  string(8) "Nightelf"
+}
+
+object(stdClass)#6 (2) {
+  ["_id"]=>
+  object(MongoDB\BSON\ObjectID)#7 (1) {
+    ["oid"]=>
+    string(24) "591127d2734d1d02624137d2"
+  }
+  ["race"]=>
+  string(8) "Bloodelf"
+}
+
+object(stdClass)#9 (2) {
+  ["_id"]=>
+  object(MongoDB\BSON\ObjectID)#8 (1) {
+    ["oid"]=>
+    string(24) "591127ef734d1d02624137dc"
+  }
+  ["race"]=>
+  string(3) "Orc"
+}
+
+object(stdClass)#7 (2) {
+  ["_id"]=>
+  object(MongoDB\BSON\ObjectID)#6 (1) {
+    ["oid"]=>
+    string(24) "59112800734d1d02624137de"
+  }
+  ["race"]=>
+  string(6) "Tauren"
+}
+
+object(stdClass)#8 (2) {
+  ["_id"]=>
+  object(MongoDB\BSON\ObjectID)#9 (1) {
+    ["oid"]=>
+    string(24) "59112813734d1d02624137e1"
+  }
+  ["race"]=>
+  string(8) "Pandaren"
+}
+
+object(stdClass)#6 (2) {
+  ["_id"]=>
+  object(MongoDB\BSON\ObjectID)#7 (1) {
+    ["oid"]=>
+    string(24) "59112822734d1d02624137e3"
+  }
+  ["race"]=>
+  string(6) "Undead"
+}
+
+object(stdClass)#9 (2) {
+  ["_id"]=>
+  object(MongoDB\BSON\ObjectID)#8 (1) {
+    ["oid"]=>
+    string(24) "59112833734d1d02624137ed"
+  }
+  ["race"]=>
+  string(6) "Goblin"
+}
+
+object(stdClass)#7 (2) {
+  ["_id"]=>
+  object(MongoDB\BSON\ObjectID)#6 (1) {
+    ["oid"]=>
+    string(24) "59112843734d1d02624137f0"
+  }
+  ["race"]=>
+  string(5) "Human"
+}
+
